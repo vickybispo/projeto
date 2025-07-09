@@ -14,8 +14,8 @@ function toggleMode() {
    const img = document.querySelector("#profile img")
 
    if(html.classList.contains("light")) {
-      img.setAttribute("src", "./avatar-copia.png");
+      img.setAttribute("src", "avatar-copia.png");
    } else {
-      img.setAttribute("src","./preto-branco.png");
+      img.setAttribute("src","preto-branco.png");
    }
 }
