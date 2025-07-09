@@ -14,8 +14,8 @@ function toggleMode() {
    const img = document.querySelector("#profile img")
 
    if(html.classList.contains("light")) {
-      img.setAttribute("src", "./projetos/assets/avatar-copia.png")
+      img.setAttribute("src", "./projetos/assets/avatar-copia.png");
    } else {
-      img.setAttribute("src","./projetos/assets/preto-branco.png")
+      img.setAttribute("src","./projetos/assets/preto-branco.png");
    }
 }
